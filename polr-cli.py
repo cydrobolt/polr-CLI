@@ -16,8 +16,8 @@ parser = argparse.ArgumentParser(description='Shorten and lookup URLs using the 
 
 parser.add_argument('value', metavar='value', type=str, help='the link to shorten or the link ending to look up.')
 parser.add_argument('--version', '-v', action='version', version='Polr CLI 0.1 http://github.com/polr-cli')
-parser.add_argument('--shorten', '-s', action='store', default='shorten', help = 'shorten an URL using Polr')
-parser.add_argument('--lookup', '-l', action='store', default = 'lookup', help = 'lookup an URL using Polr')
+parser.add_argument('--shorten', '-s', action='store_true', default='shorten', help = 'shorten an URL using Polr')
+parser.add_argument('--lookup', '-l', action='store_true', default = 'lookup', help = 'lookup an URL using Polr')
 
 args = parser.parse_args()
 
