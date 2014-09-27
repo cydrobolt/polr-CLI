@@ -13,8 +13,7 @@ http://github.com/Cydrobolt/polr-PaaS
  - Edit polr-cli.py and set your API key (or leave blank if you don't have one)
  - If you are on Windows or on a system that does not support colors in the terminal, then set it to False, otherwise, leave it to True
  - Run `setup.py install`
- - Run `polr-cli` by running `python polr-cli.py <args>`
-
+ - If you are on Linux, run `sh install.sh` as superuser (`sudo sh install.sh` or `su -c "sh install.sh"`)
 #####How to use `polr-cli`:
 After running `sudo install.sh`, you will be able to access polr through `polr <cmd>`.
 
