@@ -16,9 +16,12 @@ http://github.com/Cydrobolt/polr-PaaS
  - Run `polr-cli` by running `python polr-cli.py <args>`
 
 #####How to use `polr-cli`:
-You can use `polr` if `polr-cli` is in `/usr/local/bin/` and `sudo ln -s /path/to/polr-cli/polr .` was run.
+After running `sudo install.sh`, you will be able to access polr through `polr <cmd>`.
+
+To quickly shorten an URL, simply run `polr <url>` to shorten.
+
 ```
-usage: ./polr [-h] [--version] [--shorten] [--lookup] value
+usage: polr [-h] [--version] [--shorten] [--lookup] value
 
 Shorten and lookup URLs using the Polr CLI.
 
