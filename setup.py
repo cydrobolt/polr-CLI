@@ -1,11 +1,11 @@
 from distutils.core import setup
 
 setup(
-    name='polr-cli',
+    name='polr_cli',
     version='1.0.0',
     author='Chaoyi Zha',
     author_email='summermontreal@gmail.com',
-    packages=['polr-cli'],
+    packages=['polr_cli'],
     url='http://github.com/Cydrobolt/polr-cli',
     license=''' Copyright (c) 2014 Chaoyi Zha
 Copyright (C) 2014 Chaoyi Zha
