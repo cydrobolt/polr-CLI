@@ -14,7 +14,8 @@ http://github.com/Cydrobolt/polr-PaaS
  - If you are on Windows or on a system that does not support colors in the terminal, then set it to False, otherwise, leave it to True
  - Run `setup.py install`
  - If you are on Linux, run `sh install.sh` as superuser (`sudo sh install.sh` or `su -c "sh install.sh"`)
-#####How to use `polr-cli`:
+
+##### How to use `polr-cli`:
 After running `sudo install.sh`, you will be able to access polr through `polr <cmd>`.
 
 To quickly shorten an URL, simply run `polr <url>` to shorten.
