@@ -3,10 +3,6 @@ Polr-CLI
 
 ####Polr command-line interface (CLI)
 
-http://polr.me
-
-http://github.com/Cydrobolt/polr-PaaS
-
 
 #####How to install:
 
@@ -14,6 +10,7 @@ http://github.com/Cydrobolt/polr-PaaS
  - If you are on Windows or on a system that does not support colors in the terminal, then set it to False, otherwise, leave it to True
  - Run `setup.py install`
  - If you are on Linux, run `sh install.sh` as superuser (`sudo sh install.sh` or `su -c "sh install.sh"`)
+ - If you wish to use `polr-cli` with a self-hosted instance, please replace all instances of `polr.me` with your instance's URL.
 
 ##### How to use `polr-cli`:
 After running `sudo install.sh`, you will be able to access polr through `polr <cmd>`.
